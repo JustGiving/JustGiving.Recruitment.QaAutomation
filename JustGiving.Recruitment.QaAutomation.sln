@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustGiving.Recruitment.QaAutomation.Website", "JustGiving.Recruitment.QaAutomation.Website\JustGiving.Recruitment.QaAutomation.Website.csproj", "{47398B53-AE72-452E-9E35-732DAEFFCBF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustGiving.Recruitment.QaAutomation.Website.Tests", "JustGiving.Recruitment.QaAutomation.Website.Tests\JustGiving.Recruitment.QaAutomation.Website.Tests.csproj", "{7562F21C-53D4-4080-B3EA-D64F547E07EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47398B53-AE72-452E-9E35-732DAEFFCBF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47398B53-AE72-452E-9E35-732DAEFFCBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47398B53-AE72-452E-9E35-732DAEFFCBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47398B53-AE72-452E-9E35-732DAEFFCBF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7562F21C-53D4-4080-B3EA-D64F547E07EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7562F21C-53D4-4080-B3EA-D64F547E07EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7562F21C-53D4-4080-B3EA-D64F547E07EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7562F21C-53D4-4080-B3EA-D64F547E07EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

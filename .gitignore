@@ -1,0 +1,9 @@
+_ReSharper*
+*..ReSharper.user
+*.ReSharper.user
+_ReSharper.JustGiving.Recruitment.QaAutomation
+JustGiving.Recruitment.QaAutomation.suo
+/JustGiving.Recruitment.QaAutomation.Website/obj
+/JustGiving.Recruitment.QaAutomation.Website/bin
+/JustGiving.Recruitment.QaAutomation.Website.Tests/obj
+/JustGiving.Recruitment.QaAutomation.Website.Tests/bin
