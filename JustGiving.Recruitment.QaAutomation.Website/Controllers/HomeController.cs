@@ -27,6 +27,12 @@ namespace JustGiving.Recruitment.QaAutomation.Website.Controllers
         [HttpPost]
         public ActionResult About(AboutViewModel model)
         {
+            return RedirectToAction("AnnounceListSelection", model);
+        }
+
+        [HttpGet]
+        public ActionResult AnnounceListSelection(AboutViewModel model)
+        {
             return View(model);
         }
     }

@@ -7,3 +7,6 @@ JustGiving.Recruitment.QaAutomation.suo
 /JustGiving.Recruitment.QaAutomation.Website/bin
 /JustGiving.Recruitment.QaAutomation.Website.Tests/obj
 /JustGiving.Recruitment.QaAutomation.Website.Tests/bin
+/JustGiving.Recruitment.QaAutomation.Website/App_Data/ASPNETDB.MDF
+/JustGiving.Recruitment.QaAutomation.Website/App_Data/aspnetdb_log.ldf
+/JustGiving.Recruitment.QaAutomation.1.2.dotCover
