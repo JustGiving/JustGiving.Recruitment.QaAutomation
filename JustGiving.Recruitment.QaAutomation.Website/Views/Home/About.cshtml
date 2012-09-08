@@ -1,8 +1,31 @@
-﻿@{
+﻿@model JustGiving.Recruitment.QaAutomation.Website.Models.AboutViewModel
+@{
     ViewBag.Title = "About Us";
 }
 
-<h2>About</h2>
-<p>
-     Put content here.
-</p>
+<h2>A more complex form that gets inserted with javascript...</h2>
+<div id="hint"></div>
+<div id="delayed-form" style="display: none; padding-top: 20px;">
+@using (Html.BeginForm()) {
+    <div>
+        <fieldset>
+            <legend>Delayed loaded form</legend>
+            @Html.DropDownListFor(x => x.SelectedListItem, Model.List, new { size = 4 })
+            <p>
+                <input type="submit" value="Submit" />
+            </p>
+        </fieldset>
+    </div>
+}
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        var randnums = [0, 1, 2, 3, 4, 5, 6];
+        var m = Math.floor(Math.random() * randnums.length);
+        m = m * 1000;
+        $('#hint').text("Form will display in " + m + " ms");
+        $('#delayed-form').delay(m).fadeIn('slow');
+    });
+
+</script>

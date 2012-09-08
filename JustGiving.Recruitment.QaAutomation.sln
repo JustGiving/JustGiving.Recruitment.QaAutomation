@@ -5,6 +5,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustGiving.Recruitment.QaAu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustGiving.Recruitment.QaAutomation.Website.Tests", "JustGiving.Recruitment.QaAutomation.Website.Tests\JustGiving.Recruitment.QaAutomation.Website.Tests.csproj", "{7562F21C-53D4-4080-B3EA-D64F547E07EE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{777F0A41-E30B-48E7-8645-CBC86907D6B0}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
