@@ -11,6 +11,10 @@ an embedded SQL Express database and an example test file that loads the website
 when you press F5. You should first run the JustGiving.Recruitment.QaAutomation.Website
 from within Visual Studio, and then execute your tests against it.
 
+We have included the NUnit test runner for you to use and you can find it in
+\packages\NUnit.Runners.2.6.1\tools. We use the ReSharper test runner internally
+and execute our tests using TeamCity and we will verify your tests using ReSharper.
+
 All of your tests should be inside JustGiving.Recruitment.QaAutomation.Website.Tests.
 Feel free to use any external libraries or components that you need, but please
 make sure you include them when you send the test back to us, as we expect it to run
