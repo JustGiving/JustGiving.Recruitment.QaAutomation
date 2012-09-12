@@ -7,6 +7,7 @@ under test, and a C# project for automation / UI / acceptance tests.
 
 You'll need at least a copy of Visual Studio 2012 Express Edition (free) 
 to run this project / the tests.
+Get it here: http://www.microsoft.com/visualstudio/11/en-us/downloads#express
 
 We've included some of the things we think you'll need; a working copy of 
 selenium (you'll need firefox installed though), NUnit (and the NUnit runner),
