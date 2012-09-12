@@ -2,8 +2,11 @@ JustGiving Senior Automation Test Tasks
 =======================================
 
 These are the interview questions for the role of a senior QA automation engineer.
-We've provided a running, executing Visual Studio 2010 solution with a website
+We've provided a running, executing Visual Studio 2012 solution with a website
 under test, and a C# project for automation / UI / acceptance tests.
+
+You'll need at least a copy of Visual Studio 2012 Express Edition (free) 
+to run this project / the tests.
 
 We've included some of the things we think you'll need; a working copy of 
 selenium (you'll need firefox installed though), NUnit (and the NUnit runner),

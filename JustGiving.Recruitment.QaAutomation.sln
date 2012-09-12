@@ -1,14 +1,14 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustGiving.Recruitment.QaAutomation.Website", "JustGiving.Recruitment.QaAutomation.Website\JustGiving.Recruitment.QaAutomation.Website.csproj", "{47398B53-AE72-452E-9E35-732DAEFFCBF9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustGiving.Recruitment.QaAutomation.Website.Tests", "JustGiving.Recruitment.QaAutomation.Website.Tests\JustGiving.Recruitment.QaAutomation.Website.Tests.csproj", "{7562F21C-53D4-4080-B3EA-D64F547E07EE}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{777F0A41-E30B-48E7-8645-CBC86907D6B0}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustGiving.Recruitment.QaAutomation.Website", "JustGiving.Recruitment.QaAutomation.Website\JustGiving.Recruitment.QaAutomation.Website.csproj", "{47398B53-AE72-452E-9E35-732DAEFFCBF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustGiving.Recruitment.QaAutomation.Website.Tests", "JustGiving.Recruitment.QaAutomation.Website.Tests\JustGiving.Recruitment.QaAutomation.Website.Tests.csproj", "{7562F21C-53D4-4080-B3EA-D64F547E07EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
