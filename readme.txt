@@ -14,9 +14,26 @@ an embedded SQL Express database and an example test file that loads the website
 when you press F5. You should first run the JustGiving.Recruitment.QaAutomation.Website
 from within Visual Studio, and then execute your tests against it.
 
+If you feel uncomfortable running the website from within Visual Studio, we've
+provided a hosted version at: http://jgqatest.azurewebsites.net/
+
+In the stories below, if you are using the hosted version of the test, it's
+available at http://jgqatest.azurewebsites.net/.
+
+If you are running it from within Visual Studio it's available at: 
+http://localhost:9876
+
 We have included the NUnit test runner for you to use and you can find it in
 \packages\NUnit.Runners.2.6.1\tools. We use the ReSharper test runner internally
 and execute our tests using TeamCity and we will verify your tests using ReSharper.
+
+A few things to note about the test website:
+
+All accounts created are stored in memory.
+If you re-start the web app, any accounts you have created will vanish.
+Any accounts created will vanish if you come back to the hosted version of this app 
+after around 10-15 minutes. Ensure your tests can cope with this by using adequate 
+SetUp code.
 
 All of your tests should be inside JustGiving.Recruitment.QaAutomation.Website.Tests.
 Feel free to use any external libraries or components that you need, but please
